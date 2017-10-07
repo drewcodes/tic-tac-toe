@@ -1,0 +1,88 @@
+body {
+    background-color: #004a76;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.game-wrapper {
+    margin-top: 30px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player {
+    background-color: #3c3c3c;
+    border-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 20%;
+}
+
+.player:hover {
+    color: white;
+}
+
+.reset {
+    background-color: #db6060;
+    color: white;
+}
+
+.tic {
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    background-color: #ffffff;
+    margin-bottom: 3px;
+    color: #404040;
+}
+
+.player-move {
+    pointer-events: none;
+}
+
+.player-move.active {
+    pointer-events: auto;
+}
+
+.wrapper {
+    width: 300px;
+    margin: 40px auto 40px auto;
+    border-radius: 10px;
+    background-color: #298aa8;
+}
+
+.messages {
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #2a5071;
+    margin-top: 10px;
+}
+
+#thinking {
+    color: #00ff27;
+}
+
+a {
+    color: #eb8e8e;
+}
+
+.scores {
+    margin-top: 10px;
+    font-size: 12px;
+    display: block;
+    padding: 0px 12px 3px 12px;
+    width: 270px;
+    color: white;
+}
+
+#playerScore {
+    float: left;
+}
+
+#computerScore {
+    float: right;
+}
